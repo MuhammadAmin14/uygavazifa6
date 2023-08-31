@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#"><img src="./assets/images/products/logo (1).png" alt=""></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./cart.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+            </ul>
+            <div class="w-50 d-flex align-items-center gap-5">
+              <input
+                class="form-control me-2 d-block w-75"
+                id="search-input"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <a class="nav-link" href="./cart.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  style="fill: rgba(0, 0, 0, 1)"
+                >
+                  <path
+                    d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921zM17.307 15h-6.64l-2.5-6h11.39l-2.25 6z"
+                  ></path>
+                  <circle cx="10.5" cy="19.5" r="1.5"></circle>
+                  <circle cx="17.5" cy="19.5" r="1.5"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+           <div class="aleks">
+                    <img class="Photoimg" src="./assets/images/products/avatar.png" alt="logo" />
+                    <h3 class="alH3">Алексей</h3>
+                    <button id="btn-open">
+                        <img src="./assets/images/products/chevron-down.png" alt="logo" />
+                    </button>
+                </div>
+        </div>
+      </nav>
+    </header>
+    <div class="open">
+      <div class="container23">
+          <h2>Регистрация</h2>
+          <form>
+              <button id="btn-close">x</button>
+            <label for="username">Имя пользователя:</label>
+            <input type="text" id="username" name="username" required>
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+      
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+      
+            <input type="submit" value="Зарегистрироваться">
+          </form>
+        </div>
+    </div>
+  </div>
+
+    <main>
+      <div class="container">
+        <div class="row py-5"></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="foterDiv">
+          <img class="footerLogo" src="./assets/images/products/logo (1).png" alt="rasm" />
+          <div class="h4Clas">
+              <h4>О компании</h4>
+              <h4>Контакты</h4>
+              <h4>Вакансии</h4>c
+              <h4>Статьи</h4>
+              <h4>Политика обработки персональных данных</h4>
+          </div>
+          <img class="frame" src="./assets/images/products/Frame 190.png" alt="rasm" />
+      </div>
+  </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
